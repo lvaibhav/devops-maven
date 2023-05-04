@@ -1,3 +1,4 @@
 #!/bin/bash
+cd /opt/tomcat/apache-tomcat-9.0.74/bin
 
-sudo systemctl start tomcat
+./catalina.sh start
