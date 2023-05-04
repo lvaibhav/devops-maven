@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 # We need to copy our war file over to the tomcat applications directory, which is /usr/share/tomcat/webapps
 files: 
-  - source: /tmp/hello-world-maven.war
+  - source: /
     destination: /opt/tomcat/apache-tomcat-9.0.74/webapps
     overwrite: true
 
